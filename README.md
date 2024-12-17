@@ -25,10 +25,8 @@ This project demonstrates how to combine **FastAPI** (WebSocket) and **gRPC** to
 
 | **Technology**    | **Purpose**                             |
 |-------------------|-----------------------------------------|
-| **FastAPI**       | WebSocket-based HTTP server             |
 | **gRPC**          | Server-to-server communication          |
 | **Protocol Buffers** | gRPC message serialization            |
-| **uvicorn**       | ASGI server to run FastAPI              |
 | **Python 3.8+**   | Programming language                    |
 
 ---
