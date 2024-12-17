@@ -1,4 +1,4 @@
-# FastAPI gRPC Chat
+# gRPC Chat
 
 A real-time chat application built using **FastAPI** for WebSocket communication and **gRPC** for server-to-server communication.
 
@@ -39,7 +39,6 @@ chat_project/
 │   └── chat.proto
 │-- server/
 │   ├── grpc_server.py         # gRPC server implementation
-│   └── fastapi_server.py      # FastAPI server with WebSocket support
 │-- client/
 │   └── chat_client.py         # WebSocket chat client
 │-- requirements.txt           # Python dependencies
