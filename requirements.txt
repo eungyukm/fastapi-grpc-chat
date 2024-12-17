@@ -1,4 +1,2 @@
-fastapi
 grpcio
 grpcio-tools
-uvicorn

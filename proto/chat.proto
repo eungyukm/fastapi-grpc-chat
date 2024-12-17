@@ -1,14 +1,11 @@
 syntax = "proto3";
 
 service ChatService {
-  rpc SendMessage(ChatMessage) returns (Empty);
-  rpc StreamMessages(Empty) returns (stream ChatMessage);
+  // 양방향 스트리밍으로 메시지를 송수신합니다.
+  rpc Chat (stream ChatMessage) returns (stream ChatMessage);
 }
 
 message ChatMessage {
   string username = 1;
   string message = 2;
-}
-
-message Empty {
 }
